@@ -1,0 +1,42 @@
+body{
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-clip: content-box;
+}
+
+button {
+  background-color: #DF0101;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 2px solid #DF0101;
+  border-radius:8px;
+  box-shadow:0 0 10px black;
+}
+
+input[type=text] {
+    width:200px;
+    border:2px solid #dadada;
+    border-radius:7px;
+    font-size:15px;
+    padding:5px;
+    margin-top:0px;
+    margin-left: 130px;
+}
+
+input:focus {
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
