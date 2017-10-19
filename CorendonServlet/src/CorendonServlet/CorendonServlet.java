@@ -46,7 +46,7 @@ public class CorendonServlet extends HttpServlet {
         System.out.println("Achternaam: " + achternaam);
                   
         // return response
-        if ((ticketnummer).equals("Test") && ((achternaam).equals("Bemer"))){
+        if ((ticketnummer).equals("Test") && ((achternaam).equals("Test"))){
         	
         	response.sendRedirect("success.html");
         }
